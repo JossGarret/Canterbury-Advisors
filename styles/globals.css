@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --color-primary:#1F2937;
+  --color-accent:#22C55E;
+  --color-link:#3B82F6;
+  --color-bg:#0B1220;
+  --color-surface:#111827;
+  --color-text:#E5E7EB;
+  --radius:12px;
+  --shadow:0 8px 30px rgba(2,6,23,.6);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+}
